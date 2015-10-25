@@ -1,0 +1,11 @@
+# Node Modules
+node_modules/
+
+# Ignore the compile libraty
+cotifil.js
+
+# For now ignore the examples
+examples/
+
+# Ahhhhh
+.DS_Store

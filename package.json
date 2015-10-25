@@ -1,0 +1,37 @@
+{
+  "name": "cotifil",
+  "version": "0.0.0",
+  "description": "Cotifil is",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test"
+  },
+  "author": "Gabriel Corado",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.5.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-mocha-phantomjs": "^0.10.1",
+    "gulp-uglify": "^1.1.0",
+    "jsdom": "^3.1.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "mithril": "^0.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielcorado/cotifil.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gabrielcorado/cotifil/issues"
+  },
+  "homepage": "https://github.com/gabrielcorado/cotifil"
+}
