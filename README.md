@@ -15,7 +15,7 @@ Keep the direct access to Mithril, Cotifil will never hide it from you so you ca
 
 ## Roadmap
 * [x] Application - The basic of the Cotifil, it is not 'ready' beacuse it will be always changing, but for now we can use it.
-* [x] Pages - You can define the views and use it in your application routes, middlewares for pages is missing.
+* [x] Pages - You can define the views and use it in your application routes.
 * [ ] Components - The basic structure is ready, it is missing the integration with `m.component` method.
 * [ ] Middlewares - You can create and add it to the Application but it will not be called.
 * [ ] Tests - The structure of creating tests are ready and now is just create the tests. ;D
