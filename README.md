@@ -12,10 +12,36 @@ Keep the direct access to Mithril, Cotifil will never hide it from you so you ca
 * **Page** - Mithril look at Pages and Components as the same thing and they are. But when you want to reuse pages in different Applications its nice to treat Pages and Components differents.
 * **Component** - Same as Mithril components, the difference is that in the Component controller you can access the Application and the Page that it is being called.
 * **Middleware** - Same as the common backend middlewares(ex. Rack Middleware), it can be used to create logged areas in your website.
+* **Session** - A place where you store some important values. It have different ways to store but the main is the browser session.
+* **Template(Pending)** - Is a structure that the view of a page will be redered in.
 
 ## Roadmap
-* [x] Application - The basic of the Cotifil, it is not 'ready' beacuse it will be always changing, but for now we can use it.
-* [x] Pages - You can define the views and use it in your application routes.
-* [ ] Components - The basic structure is ready, it is missing the integration with `m.component` method.
-* [ ] Middlewares - You can create and add it to the Application but it will not be called.
-* [ ] Tests - The structure of creating tests are ready and now is just create the tests. ;D
+
+### Application
+* [x] This is the basic of the Cotifil, it is not 'ready' beacuse it will be always changing, but for now we can use it.
+
+### Page
+* [x] You can define the views and use it in your application routes.
+
+### Component
+* [x] The basics are ready, and you can use it.
+* [ ] Components in the Application Template don't need to be recreated every time.
+
+### Session
+* [ ] Enable it to have different storage strategies. A dedicated session for each Application.
+
+### Middleware
+* [x] For pages is ready.
+* [ ] For components.
+
+### Shared
+* [ ] Create a nice way to define some heavy logic to be cached.
+
+### Template(Pending)
+* [ ] Actually it doesn't exists.
+
+### Docs
+* [ ] Create nice examples
+
+### Test
+* [ ] The structure of creating tests are ready and now is just create the tests. ;D
